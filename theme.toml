@@ -1,0 +1,10 @@
+name = "dugo"
+license = "MIT"
+licenselink = "https://github.com/daniel-herink/dugo/blob/master/LICENSE"
+homepage = "https://github.com/daniel-herink/dugo"
+min_version = "0.108.0"
+
+[original]
+  name = "lugo"
+  homepage = "https://lukesmith.xyz"
+  repo = "https://github.com/lukeSmithxyz/lugo"

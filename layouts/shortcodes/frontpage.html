@@ -3,3 +3,9 @@
         <li>{{ .Date.Format "2006 Jan 02" }} &ndash; <a href="{{ .RelPermalink }}"> {{ .Title }}</a></li>
     {{ end }}
 </ul>
+{{/*  {{ range (where .Site.Pages "Section" "programming") }}
+   {{ range .Pages }}
+      {{ .Title }}
+   {{ end }}
+{{ end }}  */}}
+ 

@@ -9,7 +9,7 @@
 	<li>
 		{{- if .Param "datesinlist" }}
 			{{ if gt $num_pages 0 }}
-				Last post {{- range .Pages | first 1 }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"> {{ .Date.Format "2006 Jan 02" }}</time> &ndash; {{ end -}}
+				Last post: {{- range .Pages | first 1 }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"> {{ .Date.Format "2006 Jan 02" }}</time> &ndash; {{ end -}}
 			{{ else }}
 				<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time> &ndash; {{ end }}
 		{{ end -}}	

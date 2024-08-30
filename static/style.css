@@ -80,3 +80,16 @@ pre {
 #nextart,#prevart {
   max-width: 33% ;
 }
+
+/* The following is taken directly from the Hugo docs */
+.breadcrumb ol {
+  padding-left: 0;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: "»";
+}
